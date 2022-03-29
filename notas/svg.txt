@@ -1,0 +1,27 @@
+Então, tipo de imagens. Vou iniciar falando do PNG. O PNG é um formato de imagem pouco compacto, então ele consegue manter bastante da qualidade da imagem. Em compensação, como ele é um formato menos compacto o seu tamanho é bem elevado, então essa imagem do pinguim, 4.17 MB.
+
+[00:50] JPG, JPGS são bem mais compactos que os PNGs, por conta disso a qualidade de imagem não é tão boa quanto a de um PNG. Além disso, ele não consegue utilizar certos efeitos como por exemplo: transparência, aqui na imagem JPG o fundo está branco e na PNG o fundo está transparente. Então está o fundo da apresentação de slides.
+
+[01:13] Só que olhe só: o tamanho do JPG é muito menor do que o de um PNG, então a vantagem do JPG é justamente porque ele é um formato bem leve para se utilizar.
+
+[01:24] “GIFS”. O tamanho de um GIF pode variar bastante dependendo do comprimento da animação e também da resolução do GIF, só que GIFs possuem uma qualidade de imagem extremamente baixa, então o seu uso costuma ser bem limitado.
+
+[01:42] E agora SVGs. Os SVGs são imagens criadas através de instruções de computador, então o computador recebe uma instrução e monta o desenho na tela. No caso aqui instrução foi: desenhei uma maçã e o computador desenhou a maçã. Esse desenho é formado por cálculos, então independente do tamanho da imagem ou independente do tamanho da tela, o computador sempre faz essa mesma conta para poder gerar a imagem. Vamos ver isso com uma das vantagens do SVG.
+
+[02:13] Então uma das principais vantagens do SVG é o seu peso. O SVG costuma ser muito mais leve do que um PNG, por exemplo, porque o SVG só precisa guardar instrução de como montar a imagem. Ao contrário do PNG, que tem que guardar as informações de posição dos pixels.
+
+[02:32] Então a imagem da esquerda é formada por pixels, esses pixels têm uma quantidade específica para poder formar essa imagem. Então o PNG, como ele é formado por esses pixels, quando eu dou muito zoom nessa imagem PNG, nós começamos a ver artefatos, como por exemplo pixelização ou até imagem embaçada.
+
+[02:56] Agora, o SVG como é formado por um cálculo, e esse cálculo o resultado independe do tamanho da tela - quer dizer que eu posso dar zoom o quanto eu quiser nessa imagem, que a imagem vai continuar com a qualidade perfeita sempre.
+
+[03:11] Só que SVG não é uma imagem perfeita, ela também tem suas desvantagens. Então aqui tem a foto de um pinguim. Eu peguei essa imagem do pinguim e a transformei em SVG. Já olhando assim, de cara dá para ver que existe uma diferença bem grande entre uma imagem e outra.
+
+[03:30] Então a imagem PNG guardou muito mais informação sobre a pelagem do pinguim: a textura, a diferença de cor e a suavidade de transição de cores, do que o SVG.
+
+[03:43] O SVG ficou bem parecido, mas dá para ver claramente que a transição de cores é bem chapada. É uma cor laranja, de repente é uma cor amarela, de repente é uma cor amarela clara. A textura da pena na verdade é uma ilusão de ótica, é uma ilusão de formatos de cores chapadas que dão essa ilusão que parece que é uma pena.
+
+[04:06] Então olhando aqui uma imagem mais próxima, para comparar, dá para ver bem a diferença entra a pelagem da esquerda - do pinguim, que você consegue ver perfeitamente as penas, a qualidade, a textura das penas - e a direita que é ilusão. Se você der mais zoom ainda, você vai ver claramente que é só uma cor chapada, que não tem textura e que não tem essa profundidade.
+
+[04:30] Então quando eu uso SVG e quando eu uso PNG, por exemplo? SVGs são mais indicados para utilizar em logotipos, ícones e até em imagens, ilustrações mais simples. Fora isso é mais interessante utilizar um JPG, por exemplo.
+
+[04:48] Mas caso você precise de efeitos como transparência, você tem que utilizar o PNG. Se for imagem animada vai ser um GIF. Então tudo depende um pouco da necessidade.

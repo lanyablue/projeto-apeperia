@@ -1,0 +1,10 @@
+“em”, é uma unidade de medida relativa ao font-size, mas especificamente o font-size na tag mãe do elemento que nós estamos utilizando, o “em”.
+
+Então o “rem” é a mesma coisa, só que ao invés de ser da tag mãe, ele vai ser da tag com o maior nível hierárquico do que todos, que vai ser a tag “html”, que vai ser o elemento raiz do documento HTML.
+
+utilizando aqui “.17rem”, isso quer dizer então que se eu trocar, eu vou voltar aqui para o navegador, vou abrir um extrator de elementos só para nós termos uma visualização melhor do que está acontecendo ao vivo. Então eu vou pegar elementos e clicar aqui no “html”. Dentro de “html” eu vou trocar o font-size.
+
+Já que o “rem” se baseia no font-size da minha tag “html”, então trocando o font-size aqui, os elementos devem mudar de tamanho conforme o font-size que eu coloquei aqui dentro da tag “html”.
+
+ Então vamos ver aqui em cima, onde colocamos “padding”, dentro da tag “header”. Então “padding” aqui em cima, está como “padding tops.75rem”. Se fizermos a versão calculada, “21.75”. Eu vou trocar então o font-size de novo do “html” por alguma outra coisa, vou voltar aqui para “20”. Vamos ver para quanto que mudou agora. O “pegging” abaixou para “15”, então ele alterou o valor de todos os elementos que estavam utilizando o “rem” com unidade de medida.
+ 
